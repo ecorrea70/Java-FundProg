@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ex1
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=contador
+comment2.target=double\ leitor(int)
+comment3.params=valores\ numerovalores
+comment3.target=double\ media(double,\ int)
+numComments=4
