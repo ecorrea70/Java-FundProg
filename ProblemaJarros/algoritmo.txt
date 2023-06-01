@@ -1,0 +1,36 @@
+j1-0
+j2-0
+
+
+j1-encher
+j1-4
+j2-0
+
+j1-despejar no j2
+j1-1
+j2-3
+
+j2-esvaziar
+j1-1
+j2-0
+
+j1-despejar no j2
+j1-0
+j2-1
+
+j1-encher
+j1-4
+j2-1
+
+j1-despejar no j2
+j1-2
+j2-3
+
+
+
+
+
+
+
+
+

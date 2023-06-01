@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Jarro
+comment0.text=\r\n\ Representa\ um(a)\ Jarro.\r\n\ \r\n\ @author\ Silvia\r\n\ @version\ 05/12/2012\r\n
+comment1.params=capacidade
+comment1.target=Jarro(int)
+comment1.text=\r\n\ Construtor\r\n\ @param\ capacidade\ capacidade\ m\u00C3\u00A1xima\ do\ jarro\ (em\ litros)\ \r\n
+comment2.params=
+comment2.target=int\ getCapacidade()
+comment2.text=\r\n\ Devolve\ a\ capacidade\ em\ litros\ de\ um\ jarro\r\n\ @return\ capacidade\ do\ jarro\r\n
+comment3.params=
+comment3.target=int\ getLitros()
+comment3.text=\r\n\ Devolve\ a\ quantidade\ atual\ de\ litros\ de\ um\ jarro\r\n\ @return\ litros\ no\ jarro\r\n
+comment4.params=
+comment4.target=void\ encher()
+comment4.text=\r\n\ Enche\ totalmente\ o\ jarro\r\n
+comment5.params=
+comment5.target=void\ esvaziar()
+comment5.text=\r\n\ Esvazia\ o\ jarro\ completamente\r\n
+comment6.params=quantidade
+comment6.target=int\ despejar(int)
+comment6.text=\r\n\ Despeja\ o\ conte\u00C3\u00BAdo\ de\ um\ jarro\ em\ outro\ jarro\ sem\ ultrapassar\ a\ capacidade\ desse\ outro\ jarro.\ \r\n\ Ex\:\ se\ o\ jarro\ origem\ tiver\ a\ capacidade\ para\ 3\ litros\ e\ estiver\ cheio,\ \r\n\ e\ o\ jarro\ destino\ tiver\ a\ capacidade\ de\ 4\ litros\ e\ tiver\ apenas\ 2\ litros,\ \r\n\ ap\u00C3\u00B3s\ despejar\ jarro\ origem\ em\ jarro\ destino,\ jarro\ origem\ ficar\u00C3\u00A1\ com\ 1\ litro\ e\ jarro\ destino\ com\ 4\ litros.\ \r\n\ @param\ quantidade\ quantidade\ em\ litros\r\n\ @return\ devolve\ os\ litros\ restantes\r\n
+comment7.params=outroJarro
+comment7.target=void\ despejar(Jarro)
+comment7.text=\r\n\ Despeja\ o\ conte\u00C3\u00BAdo\ de\ um\ jarro\ em\ outro\ jarro\ sem\ ultrapassar\ a\ capacidade\ desse\ outro\ jarro.\ \r\n\ Ex\:\ se\ o\ jarro\ origem\ tiver\ a\ capacidade\ para\ 3\ litros\ e\ estiver\ cheio,\ \r\n\ e\ o\ jarro\ destino\ tiver\ a\ capacidade\ de\ 4\ litros\ e\ tiver\ apenas\ 2\ litros,\ \r\n\ ap\u00C3\u00B3s\ despejar\ jarro\ origem\ em\ jarro\ destino,\ \r\n\ jarro\ origem\ ficar\u00C3\u00A1\ com\ 1\ litro\ e\ jarro\ destino\ com\ 4\ litros.\ \r\n\ @param\ outroJarro\ jarro\ destino\r\n
+numComments=8
