@@ -8,6 +8,10 @@
 public class Aplicacao
 {
     public static void main (String args[]){
-        
+    Paciente p1 = new Paciente ("Cláudio", "12345678910", "(51)994204100", "Particular", 5, 2);
+    
+    
+    
+     
     }
 }
