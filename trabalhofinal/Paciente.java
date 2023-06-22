@@ -11,11 +11,11 @@ public class Paciente
     private String cpf;
     private String telefone;
     private String convenio;
-    private int diagnostico;
+    private String diagnostico;
     private int numConsultas;
     
     
-    public Paciente(String nome, String cpf, String telefone, String convenio, int diagnostico, int numConsultas) {
+    public Paciente(String nome, String cpf, String telefone, String convenio, String diagnostico, int numConsultas) {
         this.nome = nome;
         this.cpf = cpf;
         this.telefone = telefone;
@@ -28,16 +28,34 @@ public class Paciente
     public String getCpf(){return cpf;}
     public String getTelefone(){return telefone;}
     public String getConvenio(){return convenio;}
-    public int getDiagnostico(){return diagnostico;}
+    public String getDiagnostico(){return diagnostico;}
     public int getNumconsultas(){return numConsultas;}
 
     
-    public void setNome(){String nome;}
-    public void setCpf(){String cpf;}
-    public void setTelefone(){String telefone;}
-    public void setConvenio(){String convenio;}
-    public void setDiagnostico(){int diagnostico;}
-    public void setNumconsultas(){int numConsultas;}
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setConvenio(String convenio) {
+        this.convenio = convenio;
+    }
+
+    public void setDiagnostico(String diagnostico) {
+        this.diagnostico = diagnostico;
+    }
+
+    public void setNumconsultas(int numConsultas) {
+        this.numConsultas = numConsultas;
+    }
+
     
     public String toString(){
         return "Nome: "+nome+"\nCPF: "+cpf+"\nTelefone: "+telefone+"\nConvênio: "+convenio+"\nDiagnóstico: "+diagnostico+"\nNúmero de consultas no mês: "+numConsultas;
