@@ -11,6 +11,7 @@ public class CadastroPacientes
     private Paciente [] vetor;
     private int i;
     
+    
     public CadastroPacientes(int tamanho) {
         vetor = new Paciente[tamanho];
         i=0;
@@ -26,6 +27,8 @@ public class CadastroPacientes
         } 
     }
     
+    
+    //método baseado no programa de cadastro de gatos que foi mostrado na aula
     public void mostraPacientes(){
         for(int n=0; n<i; n++){
             System.out.println("\n\n\nCadastro de pacientes na posição " + (n)+ "\n********* ** ***** ** *******");            
@@ -33,16 +36,21 @@ public class CadastroPacientes
         }        
     }
     
+    //esse método ordena os pacientes pela ordem alfabética do nome de cada um
     public void ordemAlfabetica(){
          Arrays.sort(vetor, 0, i, (paciente1, paciente2) -> paciente1.getNome().compareTo(paciente2.getNome()));
     }
     
+    //calcula a média do número de consultas dos pacientes
     public double mediaConsultas(){
         double media=0;
-        media = (vetor[0].getNumconsultas()+vetor[1].getNumconsultas()+vetor[2].getNumconsultas())/3;
+        media = (vetor[0].getNumconsultas()+vetor[1].getNumconsultas()+vetor[2].getNumconsultas()+vetor[3].getNumconsultas()+vetor[4].getNumconsultas()+vetor[5].getNumconsultas()+vetor[6].getNumconsultas()+vetor[7].getNumconsultas()+vetor[8].getNumconsultas()+vetor[9].getNumconsultas())/10;
         return media;
     }
     
+    
+    
+    //métodos para alterar os dados de um paciente
     public void mudarTelefone(int index, String novoTelefone){
         if (index >= 0 && index < vetor.length) {
             vetor[index].setTelefone(novoTelefone);
@@ -79,6 +87,8 @@ public class CadastroPacientes
         }
     }
     
+    
+    //calcular o valor total a ser pago no mês por um paciente
     public int calcularValormensal(int index, int valorConsulta){
         if (index >= 0 && index < vetor.length) {
             int valormensal = vetor[index].getNumconsultas()*valorConsulta;
@@ -89,6 +99,7 @@ public class CadastroPacientes
         }
     }
     
+    //aqui ele pega todas as doenças e exibe na tela as porcentagens de cada diagnóstico
     public void porcentagemDoencas(){
         int tamanho = i; 
         int covid = 0;
@@ -126,6 +137,7 @@ public class CadastroPacientes
         System.out.println("\nOutro diagnóstico: " + porcentagemOutro + "%");
     }
 
+    //semelhante ao método anterior, mas com os convênios
     public void porcentagemConvenios(){
         int tamanho = i; 
         int sus = 0;
